@@ -2,7 +2,6 @@ import { getProject } from '@/sanity/lib/sanity.query'
 import { PortableText } from '@portabletext/react'
 import Image from 'next/image'
 import { getImageDimensions } from '@sanity/asset-utils'
-import SanityImage from '@/components/SanityImage'
 
 type Props = {
   params: { project: string }
