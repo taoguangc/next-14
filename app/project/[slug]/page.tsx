@@ -3,6 +3,8 @@ import { PortableText } from '@portabletext/react'
 import Image from 'next/image'
 import { getImageDimensions } from '@sanity/asset-utils'
 
+export const runtime = 'edge'
+
 type Props = {
   params: { project: string }
 }
