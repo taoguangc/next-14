@@ -6,6 +6,16 @@ export type Project = {
   name: string
   slug: string
   image: string
+  asset: {
+    url: string
+    metadata: {
+      lqip: string
+      demensions: {
+        height: string
+        weight: string
+      }
+    }
+  }
   lqip: string
   url: string
   content: PortableTextBlock[]

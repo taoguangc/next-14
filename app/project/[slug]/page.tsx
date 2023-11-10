@@ -1,7 +1,8 @@
-import { getProject } from '@/sanity/lib/sanity.query'
+import { getProject } from '@/sanity/lib/queries
 import { PortableText } from '@portabletext/react'
 import Image from 'next/image'
 import { getImageDimensions } from '@sanity/asset-utils'
+import { urlForImage } from '@/sanity/lib/image'
 
 type Props = {
   params: { project: string }

@@ -1,5 +1,3 @@
-// import { defineField, defineType } from 'sanity'
-
 const project = {
   name: 'project',
   title: '项目',
@@ -20,7 +18,7 @@ const project = {
       name: 'image',
       title: '图像',
       type: 'image',
-      options: { hotspot: true, metadata: ['blurhash', 'lqip'] },
+      options: { hotspot: true },
       fields: [
         {
           name: 'alt',
