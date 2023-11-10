@@ -1,4 +1,4 @@
-import { getProject } from '@/sanity/lib/queries
+import { getProject } from '@/sanity/lib/queries'
 import { PortableText } from '@portabletext/react'
 import Image from 'next/image'
 import { getImageDimensions } from '@sanity/asset-utils'
